@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(./image/dynamic-portrait-young-sportive-woman-training-running-isolated-purple-background-neon-with-mixed-lights.jpg );
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+nav{
+    /* border: 2px solid blue; */
+}
+.nav_wrapper{
+    /* border: 2px solid; */
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_wrapper h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: -4px;
+}
+
+.nav_items a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 4rem;
+    text-transform: capitalize;
+}
+
+.nav_wrapper button{
+    padding: .3rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+
+/* styling for main */
+main{
+    /* border: 2px solid #fff; */
+    margin-top: 100px;
+    align-items: right;
+    display: flex;
+    justify-content: right;
+}
+
+form{
+    border: 1px solid #fff;
+    width: 360px;
+    height: 55vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.532);
+    margin: 3rem auto;
+    filter: blur(0.5px);
+}
+
+form>span{
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    margin: .03rem;
+    float: right;
+    padding: .1rem ,5rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form h1{
+    padding: 10px;
+    /* border: 2px solid; */
+    text-align: center;
+    margin: 20px auto;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.input_container{
+    border-bottom: 1px solid black;
+    margin: 1rem auto;
+    width: 230px;
+    display: flex;
+}
+
+.input_container input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.input_container input ::placeholder{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 1rem;
+    padding-left: 1rem;
+}
+.form_label{
+/* border: 2px solid; */
+width: 230px;
+margin:  2rem auto;
+font-size: 12px;
+display: flex;
+align-items: center;
+}
+
+.btn{
+    /* border: 2px solid; */
+    width: 230px;
+    margin: 1rem auto;
+}
+.btn>button{
+    width: 100px;
+    border-radius: 7px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    padding: .1rem 0;
+}
+P{
+  /* border: 2px solid;   */
+  margin-top: 20px;
+  margin-left: 65px;
+  text-transform: capitalize;
+  font-size: .9rem;
+}
